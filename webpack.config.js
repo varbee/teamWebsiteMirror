@@ -3,6 +3,7 @@ var path = require('path'),
     px2rem=require('postcss-px2rem'),
     ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+test
 module.exports = {
     entry: {
         index: [
