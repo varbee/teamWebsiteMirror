@@ -38,7 +38,7 @@
 
 `arc land` 或 `git push`
 
-#### 方法二：
+#### 方法二（不推荐）：
 
-(1) `git log` 查看版本历史
+(1) 通过`git diff`手动输出更改信息，复制下来。在[PHA平台上创建一个revision](http://code.alexxd.com/differential/diff/create/)，将信息粘贴进去，按要求指定reviewer，创建。
 
