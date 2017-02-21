@@ -1,7 +1,12 @@
-.show-video{
-	background: pink;
+.show-video{	
 	video{
 		height:100%;
 		width:100%;
+		// background:transparent url('../images/video-post.png') 50% 50% no-repeat;
+		background: #000;
+	-webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 	}
 }
