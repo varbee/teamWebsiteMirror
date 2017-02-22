@@ -1,4 +1,4 @@
-  <div class="swiper-container  gallery-top swiper-container2">
+  <div class="swiper-container gallery-top">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="time clearfix">
@@ -107,14 +107,52 @@
     </div>
      <div class="swiper-container gallery-thumbs">
         <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            
+            <div class="swiper-slide"><h2>勤奋蜂科技团队2015年荣誉：</h2></div>
+            <div class="swiper-slide">
+             <h3>
+            <span>微软俱乐部成员曾获得ACM多次大奖</span>
+            <span>2004年重庆大学微软俱乐部成员受到李开复亲切接见</span>
+             </h3>
+            </div>
+            <div class="swiper-slide">
+             <h3 class="h3-position">
+            <span>首届“互联网+”全国大学生创新创业大赛重庆市银奖</span>
+            <span>勤奋蜂科技CQU工作室在2016年入驻重庆大学微软俱乐部</span>
+             </h3>
+            </div>  
+            <div class="swiper-slide">
+            <h3>
+            <span>重庆大学五四青年奖章2名</span>
+            <span>重庆大学十佳研究生共青团标兵1名</span>
+            </h3>
+            </div>
+            <div class="swiper-slide">
+            <h3 class="h3-position">
+            <span>重庆市级荣誉表彰4名</span>
+            <span>国家奖学金8名</span>
+            <span>团队自有立项：国家级、省部级共计4项</span>
+            <span>2015年创新中国“Demo camspanus”全国优秀奖</span>
+            </h3>
+            </div>
+            <div class="swiper-slide">
+            <h3>
+            <span>美国大学生数学建模竞赛 国际奖3项</span>
+            <span>Google全国大学生安卓挑战赛全国二等奖，第二名</span>
+            </h3>
+            </div>
+            <div class="swiper-slide">
+            <h3 class="h3-position">
+           <span>郑和杯青年精英创新创业大赛全国一等奖第一名</span>
+            <span>全国大学生网络创新创业大赛全国二等奖</span>
+            </h3>
+            </div>
+            <div class="swiper-slide">
+            <h3>
+            <span>被重庆日报集团评为:重庆市2015年十佳创新创业项目团队</span>
+            <span>被教育部与国家网信办评为:2015年全国大学生网络文化节“全国优秀项目”团队</span>
+            </h3>
+            </div>    
         </div>
     </div>
+
+    <div class="mask"></div>

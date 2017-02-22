@@ -1,3 +1,54 @@
 .members{
+		width:100%;
+		height:100%;
+		background-color: #99deed;
+	text-align: center;
+	h2 {
+		span {
+			color: #fff;
+		}
+		font-size: 40px;
+		font-weight: lighter;
+	}
+	p {
+		margin: 30px auto;
+		font-size: 16px;
+		width: 800px;
+	}
+
+.picture {
+	width: 760px;
+	margin: 30px auto;
+	img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+    	-webkit-transition: all .3s ease-out;
+    	transition: all .3s ease-out;
+		margin: 4px 20px 10px 20px;
+	}
+}
+.show-picture > img {
+    @for $i from 1 through 14 {
+        &:nth-child(#{$i}) {
+            opacity: 0;
+            animation-name: animationMenu1;
+            animation-duration: 180ms * ($i/2);
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+    }
+}	
+@keyframes animationMenu1 {
+    0% {
+        opacity: 0;
+        transform: rotateY(-90deg) translate3d(0, 30px, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+}
 	
+    
 }
