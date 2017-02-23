@@ -26,10 +26,10 @@ $(function(){
 					
 					console.log($indexWidth);
 
-				if($indexWidth > 1200 || $indexWidth < 710 && $indexWidth > 700 || $indexWidth < -60){
+				if($indexWidth > 1210 || $indexWidth < 730 && $indexWidth > 720 || $indexWidth < -60){
 					$porItem.animate({left: "-50%"},300);
 				}
-				if($indexWidth > 1190 && $indexWidth < 1200 || $indexWidth < 630 && $indexWidth > 620 ){
+				if($indexWidth > 1190 && $indexWidth < 1210 || $indexWidth < 650 && $indexWidth > 640 ){
 					$porItem.animate({left: "-100%"},300);
 				}
 				if($indexWidth < 100 &&  $indexWidth> -60){
