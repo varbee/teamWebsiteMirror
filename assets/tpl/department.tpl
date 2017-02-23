@@ -9,21 +9,21 @@
 					</div>
 				</li>
 				<li>
-					<img src="../assets/images/branch-sj.jpg">
+					<img src="../assets/images/branch-sj.png">
 					<div>
 						<h3>设计组</h3>
 						<p>负责参与产品的视觉设计，交互设计来提高产品易用性，配合其他部门完成设计工作。</p>
 					</div>
 				</li>
 				<li>
-					<img src="../assets/images/branch-web.jpg">
+					<img src="../assets/images/branch-web.png">
 					<div>
 						<h3>前端组</h3>
 						<p>负责网站的交互设计工作，对网站前端性能做相应的优化。</p>
 					</div>
 				</li>
 				<li>
-					<img src="../assets/images/branch-ht.jpg">
+					<img src="../assets/images/branch-ht.png">
 					<div>
 						<h3>后台组</h3>
 						<p>负责数据库设计工作和编写功能全面、操作方便的后台管理系统。</p>
