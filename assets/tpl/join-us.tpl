@@ -28,10 +28,10 @@
 	                <input type="text" name="school" id="school" required>
 	            </div>
 	            <div class="row" >
-	                <input type="text" placeholder="16字以内" id="grade" required>
+	                <input type="text" placeholder="16字以内" id="grade" name="grade" required>
 	            </div>
 	            <div class="row" >
-	                <input type="tel" id="tel" required>
+	                <input type="tel" id="tel" name="tel" required>
 	            </div>
 	            <div class="row" >
 	            	<select name="group" id="group" required>
