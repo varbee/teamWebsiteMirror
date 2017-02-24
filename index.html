@@ -21,12 +21,12 @@
     </div>
     <div class="swiper-container swiper-container1">
     <div class="swiper-wrapper content">
-    <div class="swiper-slide show-video"></div>
-    <div class="swiper-slide team-history"></div>
-    <div class="swiper-slide members"></div>
-    <div class="swiper-slide department"></div>
-    <div class="swiper-slide product">胡小青产品</div>
-    <div class="swiper-slide join-us">胡小青加入我们产品链接等</div>
+        <div class="swiper-slide show-video"></div>
+        <div class="swiper-slide team-history"></div>
+        <div class="swiper-slide members"></div>
+        <div class="swiper-slide department"></div>
+        <div class="swiper-slide product"></div>
+        <div class="swiper-slide join-us"></div>
     </div>
     <div class="swiper-pagination swiper-pagination1"></div>
     </div>
@@ -59,6 +59,69 @@
     });
     galleryTop.params.control = galleryThumbs;
     galleryThumbs.params.control = galleryTop;
+    </script>
+
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <script>
+        $(function(){
+
+            $("#join-us").validate({
+                debug: true,
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 4
+                    },
+                    school: {
+                        required: true,
+                        minlength: 8
+                    },
+                    grade: {
+                        required: true,
+                        maxlength:  16
+                    },
+                    tel: {
+                        required: true,
+                        rangelength:[11,11]
+                    },
+                    group: {
+                        required: true
+                    },
+                    selfIntro: {
+                        required: true,
+                        minlength: 30
+                    }
+                },
+                messages: {
+                    name: {
+                        required: "请输入姓名",
+                        minlength: "至少输入两个字"
+                    },
+                    school: {
+                        required: "请输入学校",
+                        minlength: "至少输入4个字"
+                    },
+                    grade: {
+                        required: "请输入年级",
+                        maxlength:  "不超过16个字"
+                    },
+                    tel: {
+                        required: "请输入电话号码",
+                        rangelength:  "请输入11位数字"
+                    },
+                    group: {
+                        required: "请选择报名组别"
+                    },
+                    selfIntro: {
+                        required: "请填写自我介绍",
+                        minlength: "至少30字"
+                    }           
+                }
+            
+            });
+        })
     </script>
 </body>
 </html>

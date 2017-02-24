@@ -1,4 +1,4 @@
- <video src="http://cyvideo-1252453813.cosgz.myqcloud.com/video.mp4" autoplay loop></video>
+<!--  <video src="http://cyvideo-1252453813.cosgz.myqcloud.com/video.mp4" autoplay loop></video> -->
  <div class="video-mask">
  	 <div class="video-content">
  		 <img src="../assets/images/logo.png" alt="logo">

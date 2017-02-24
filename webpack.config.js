@@ -3,6 +3,7 @@ var path = require('path'),
     px2rem=require('postcss-px2rem'),
     ExtractTextPlugin = require("extract-text-webpack-plugin");
 
+
 module.exports = {
     entry: {
         index: [
@@ -62,9 +63,9 @@ module.exports = {
    
     plugins: [
         new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            "window.jQuery":"jquery"
+            $: 'jQuery',
+            jQuery: 'jQuery',
+            "window.jQuery":"jQuery"
         }),
         new ExtractTextPlugin('[name].css')
     ],
