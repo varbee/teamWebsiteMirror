@@ -1,4 +1,4 @@
-.show-video{	
+.show-video{
 	video{
 		height:100%;
 		width:100%;
@@ -19,24 +19,38 @@
 		.video-content{
 			h2{
 				font-size:20px;
-				color:#fff;
+				color:#eee;
 			}
 			.past{
 				position: absolute;
-				top:54%;
-				left:30%;
+				top:50%;
+				left:38%;
 			}
 			.now{
 				position: absolute;
-				top:60%;
-				left:40%;
+				top:56%;
+				left:38%;
 
 			}
 			.future{
 				position: absolute;
-				top:66%;
-				right:30%;
+				top:62%;
+				left:36%;
 
+			}
+			img{
+				position: absolute;
+				top:20%;
+				left:42%;
+				width:100px;
+				height:100px;
+			}
+			h1{
+				position: absolute;
+				top:40%;
+				left:38%;
+				color:#fff;	
+				font-size:28px;
 			}
 
 
