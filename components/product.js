@@ -12,29 +12,31 @@ $(function(){
 		var $img= $(".back"),
 			$mask = $(".mask"), 
 			$porItem = $(".product-item"),
-			w = $mask.offset().left;
+			w = $mask.offset().left,
+			winWidth = $(window).width(),
+			center = winWidth/2;
 			
-			console.log($img);
-			console.log(w);
-			console.log($mask);
-			console.log($porItem);
 
-			
+
 			$img.click(function(){
+			var $indexWidth = $(this).offset().left,
+				right = $indexWidth-center,
+				left = center + $indexWidth;	
+					console.log("$indexWidth" +$indexWidth);
+					console.log("winWidth"+winWidth);
+					console.log("center"+center);
+					console.log("right"+right);
+					console.log("left"+left);
 
-				var $indexWidth = $(this).offset().left;
-					
-					console.log($indexWidth);
-
-				if($indexWidth > 1210 || $indexWidth < 730 && $indexWidth > 720 || $indexWidth < -60){
-					$porItem.animate({left: "-50%"},300);
+				if(right > center-80 && right < center 
+					|| left < center - 72){
+					$porItem.animate({left: -center},300);
+				}else if(right < 0 || left < center && left > center - 70){
+					$porItem.animate({left: 0 },300);
+				}else if (right < center-80) {
+					$porItem.animate({left: -winWidth},300);
 				}
-				if($indexWidth > 1190 && $indexWidth < 1210 || $indexWidth < 650 && $indexWidth > 640 ){
-					$porItem.animate({left: "-100%"},300);
-				}
-				if($indexWidth < 100 &&  $indexWidth> -60){
-					$porItem.animate({left: "0"},300);
-				}
+				
 				
 			})
 

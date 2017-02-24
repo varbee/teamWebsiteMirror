@@ -22,7 +22,6 @@ $(function(){
 /* 表单验证 */
 
 $(function(){
-
 	$("#join-us").validate({
 		debug: true,
 		rules: {
@@ -75,18 +74,7 @@ $(function(){
 				minlenghth: "至少30字"
 			}			
 		}
-		// $.validator.addMethod("af",function(value,element,params){  
-		// 	if(value.length>1){
-		// 		return false;
-		// 	}
-		//     if(value>=params[0] && value<=params[1]){
-		// 		return true;
-		// 	}else{
-		// 		return false;
-		// 	}
-		// },"必须是一个字母,且a-f");
-
-
+	
 	});
 })
 

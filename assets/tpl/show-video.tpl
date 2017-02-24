@@ -1,4 +1,4 @@
- <video src="http://cyvideo-1252453813.cosgz.myqcloud.com/video.mp4" autoplay loop></video>
+<!--  <video src="http://cyvideo-1252453813.cosgz.myqcloud.com/video.mp4" autoplay loop></video> -->
  <div class="video-mask">
  	 <div class="video-content">
  	 	<h2 class="past">过去，我们是沉默的探路者</h2>

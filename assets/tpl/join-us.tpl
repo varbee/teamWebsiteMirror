@@ -1,10 +1,6 @@
 <!-- 加入我们 -->
 <div class="join">
 	<h2>Join us</h2>
-	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
-	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
-	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
-	
 	<form action="" method="post" id="join-us">
 		<!-- 个人信息 -->
 		<div class="information">

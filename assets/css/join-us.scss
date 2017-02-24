@@ -32,7 +32,7 @@
 .join-us{
 	.join{
 		width: 100%;
-		height: 500px;
+		height: 520px;
 		overflow: auto;
 		zoom: 1; 
 		h2 {
@@ -43,6 +43,7 @@
 			margin: 0 0 20px 0;
 		}
 		form {
+			margin-top: 20px;
 			overflow: auto;
 			zoom: 1;
 		}
@@ -190,7 +191,7 @@
 
 	}
 	.footer{
-		margin-bottom: 0;
+		margin-top: 40px;
 		width: 100%;
 		min-width: 630px;
 		height: 130px;
@@ -256,8 +257,7 @@
 	}
 	@media screen and (max-width:799px) {
 		.join {
-			min-width: 630px;
-			
+			min-width: 630px;	
 			form{
 				width: 430px;
 				// height: 760px;
@@ -318,8 +318,8 @@
 				
 			}
 			.self-introduce {
-				width: 400px;
-				min-width: 366px;
+				width: 344px;
+				min-width: 344px;
 				height: 400px;
 				margin-left: 60px;
 			}
